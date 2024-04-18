@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(255, 255, 255);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+
+.links button {
+  padding: 5px 25px 5px 25px;
+  background-color: rgb(52, 208, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(52, 208, 255);
+}
+
+.hero h1 {
+  padding-top: 20px;
+}
+
+.heroPar {
+  width: 200px;
+  font-size: 10px;
+}
+
+.hero button {
+  padding: 5px 25px 5px 25px;
+  border: none;
+  background: transparent;
+  border: 2px solid rgb(52, 208, 255);
+  color: rgb(52, 208, 255);
+  border-radius: 8px;
+}
+
+.hero button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  border: 2px solid black;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.001);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  padding-bottom: 20px;
+}
+
+.AboutPars {
+  font-size: 10px;
+  display: flex;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.AboutSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card button {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid rgb(52, 208, 255);
+  padding: 5px 25px 5px 25px;
+  color: rgb(52, 208, 255);
+}
+
+.AboutSection button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  border: 2px solid black;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signUp .card p {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  width: 120px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.smallInfo {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+}
+
+.extras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
